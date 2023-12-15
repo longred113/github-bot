@@ -19,7 +19,7 @@ client.on("messageCreate", async (message) => {
     if (feedbackMessage !== "") {
       message.reply({
         content:
-          "Thanks for reaching out! We’ll be passing this along to the team22 directly! Good luck playing the game!",
+          "Thanks for reaching out! We’ll be passing this along to the team directly! Good luck playing the game!",
       });
     }
   }
